@@ -4,8 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../view/bootstrap.min.css">
     <title>Login</title>
 </head>
 <body>
+<div id="formulaire_login" class="container content" align="center">
+    <form action="" method="post" id="connexion">
+        <div class="mb-3" id="formulaire_id">
+            <label for="id">Identifiant</label>
+            <input type="text" id="id" name="id" placeholder="Identifiant">
+        </div>
+        <div class="mb-3" id="formulaire_pw">
+            <label for="pw">Mot de passe</label>
+            <input type="password" id="password" name="password" placeholder="Mot de passe">
+        </div>
+        <button type="submit" class="btn btn-success">Connexion</button>
+    </form>
+</div>
+
 </body>
 </html>
